@@ -16,9 +16,7 @@ public class Shelf {
 		this.existedFilms.put(location, film);
 
 	}
-	
-
-	
+		
 	public Map<Location, Film> getExistedFilms() {
 		return existedFilms;
 	}
