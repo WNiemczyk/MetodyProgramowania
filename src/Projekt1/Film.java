@@ -1,11 +1,14 @@
 package Projekt1;
 
+import org.apache.log4j.Logger;
+
 public class Film {
-	private String type;
+
 	private String title;
 	private String director;
 	private int year;
-
+	private static Logger logger = Logger.getLogger(Film.class);
+	
 	public Film() {
 
 	}
@@ -17,19 +20,17 @@ public class Film {
 		this.year = year;
 	}
 
+	public void setYearEx(int year) throws MyException{
+		if (year > 2012)
+			throw new MyException("Year cannot be greater than 2011");
+		else this.year = year;
+	}
+	
 	public String toString() {
 
 		String film = "";
 		film = film + title + ", " + director + ", " + year;
 		return film;
-	}
-
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
 	}
 
 	public String getTitle() {
