@@ -48,16 +48,20 @@ public class Main {
 
 		shelf.show();
 
-		shelf.getExistedFilms().remove(new Location(1, 0));
-		Location location = new Location(1, 0);
-		logger.info("Remove film from location " + location);
-	
+		shelf.findByLocation(new Location(1, 0));
+
+		shelf.removeByLocation(new Location(0, 0));
 		shelf.show();
-
-		shelf.find(new Location(-1, 0));
-
-		shelf.clear();
-
+		
+		shelf.findByYear(2004);
+		
+		// przerobić na szukanie na podstawie dowolnych znaków występujących w nazwisku reżysera
+		shelf.findByDirector("Jim Jarmusch");
+		
+		shelf.changeLocation(new Location(2, 0), new Location (3, 0));
+		shelf.show();
+		
+		shelf.clearAll();
 		shelf.show();
 
 	}
