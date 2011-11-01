@@ -32,7 +32,8 @@ public class Main {
 		shelf.show();
 
 		shelf.put(new Location(-1, 0), new Film("Bracia", "Susanne Bier", 2004));
-
+		shelf.show();
+		
 		Film f = new Film("Aki Kaurismaki", "La Havre", 2011);
 
 		try {
@@ -46,8 +47,6 @@ public class Main {
 		} catch (Exception e) {
 		}
 
-		shelf.show();
-
 		shelf.findByLocation(new Location(1, 0));
 
 		shelf.removeByLocation(new Location(0, 0));
@@ -55,7 +54,7 @@ public class Main {
 		
 		shelf.findByYear(2004);
 		
-		// przerobić na szukanie na podstawie dowolnych znaków występujących w nazwisku reżysera
+		// przerobić na szukanie na podstawie kilku znaków występujących w nazwisku reżysera
 		shelf.findByDirector("Jim Jarmusch");
 		
 		shelf.changeLocation(new Location(2, 0), new Location (3, 0));
