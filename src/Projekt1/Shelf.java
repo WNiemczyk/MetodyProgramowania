@@ -134,7 +134,7 @@ public class Shelf {
 
 		String Film = "";
 		String Film2 = "";
-		System.out.println("Films made by director " + director + " are ");
+		System.out.println("Films made by director " + director + " are: ");
 
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
