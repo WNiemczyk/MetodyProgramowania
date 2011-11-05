@@ -2,6 +2,8 @@ package Projekt1;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
+
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.Logger;
 
@@ -20,6 +22,21 @@ public class Shelf {
 	public void init() {
 		this.existedFilms.put(new Location(0, 0), new Film("La Comunidad",
 				"de la Iglesia", 2004));
+		
+		try{
+			
+		existedFilms.get(new Location(0,0)).setYearEx(2014);
+			
+		} catch (MyException e) {
+
+			//logger.error(e.getMessage());
+			//logger.fatal(e.getMessage());
+			logger.warn(e.getMessage());
+			// e.printStackTrace();
+		} catch (Exception e) {
+		}
+
+		
 		this.existedFilms.put(new Location(1, 0), new Film("Soul Kitchen",
 				"Fatih Akin", 2010));
 		this.existedFilms.put(new Location(2, 0), new Film(
@@ -31,9 +48,6 @@ public class Shelf {
 
 	}
 	
-	public int hashCode() {
-		return getExistedFilms().hashCode();
-	}
 
 	public String toString() {
 
@@ -75,7 +89,7 @@ public class Shelf {
 
 	public void show() {
 
-		System.out.println(this.existedFilms);
+		System.out.println("\n" + this.existedFilms);
 
 	}
 
@@ -97,6 +111,21 @@ public class Shelf {
 		logger.info("Removed film from location " + location);
 	}
 	
+	public void setNewFilm(String title, Location l, Film f){
+		
+		String film = "";
+		
+		for(Map.Entry<Location, Film> e : existedFilms.entrySet()){
+			
+			film = e.getValue().getTitle();
+			
+			if(film.equals(title))
+				this.existedFilms.put(l, f);
+		}
+		
+	}
+	
+
 	public void changeLocation(Location l1, Location l2) {
 
 		Film location1 = existedFilms.get(l1);
@@ -116,7 +145,7 @@ public class Shelf {
 
 		int year = 0;
 		String title = "";
-		System.out.println("Films made in 2004 are:");
+		System.out.println("\nFilms made in " + y + " are:");
 
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
@@ -132,22 +161,44 @@ public class Shelf {
 
 	public void findByDirector(String director) {
 
-		String Film = "";
-		String Film2 = "";
-		System.out.println("Films made by director " + director + " are: ");
+		String film = "";
+		String film2 = "";
+		System.out.println("\nFilms made by director " + director + " are: ");
 
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
-			Film = e.getValue().getDirector();
-			Film2 = e.getValue().getTitle();
-			
-			if (Film.equals(director))
-				System.out.println(Film2);
+			film = e.getValue().getDirector();
+			film2 = e.getValue().getTitle();
+
+			// equals potrzebuje pełnej nazwy
+			if (film.contains(director))
+				System.out.println(film2);
 		}
 		
 		logger.info("Found films made by " + director);
 	}
 
+	public void findLocationByDirector(String director) {
+
+		String film = "";
+		Location l = null;
+		System.out.println("\nFilms made by director " + director + " you can find in location: ");
+
+		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
+
+			film = e.getValue().getDirector();
+			l = e.getKey();
+
+			// equals potrzebuje pełnej nazwy
+			if (film.contains(director))
+				System.out.println(l);
+		}
+		
+		logger.info("Found films made by " + director + " in location " + l);
+	}
+
+	
+	
 	
 	public Map<Location, Film> getExistedFilms() {
 		return existedFilms;

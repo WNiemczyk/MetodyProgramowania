@@ -1,0 +1,301 @@
+0    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+1    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+0    [main] INFO  Projekt1.Shelf  - Dodano film Bracia, Susanne Bier, 2004 w lokalizacji  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+13   [main] INFO  Projekt1.Main  - Remove film from location  [1] [0]
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Main  - Remove film from location  [1] [0]
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Main  - Remove film from location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Main  - Remove film from location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Find the film in location  [-1] [0]
+5    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Find the film in location  [-1] [0]
+6    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Remove film from location  [-1] [0]
+5    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+16   [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+19   [main] INFO  Projekt1.Shelf  - Remove film from location  [-1] [0]
+19   [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Remove film from location  [-1] [0]
+4    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Remove film from location  [-1] [0]
+5    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Remove film from location  [-1] [0]
+5    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Remove film from location  [0] [0]
+4    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Remove film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Remove film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Remove film from location  [0] [0]
+5    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Remove film from location  [0] [0]
+5    [main] INFO  Projekt1.Shelf  - All films is clear
+1    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+5    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+8    [main] INFO  Projekt1.Shelf  - Remove film from location  [0] [0]
+13   [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Find the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Remove film from location  [0] [0]
+7    [main] INFO  Projekt1.Shelf  - All films is clear
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+17   [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+18   [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+3    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+8    [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmusch
+8    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+9    [main] INFO  Projekt1.Shelf  - All the films are cleared
+1    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+3    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+3    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmusch
+10   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+14   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+14   [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+14   [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+14   [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+15   [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+15   [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmusch
+15   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+17   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+2    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+2    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+12   [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+13   [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmusch
+13   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+20   [main] INFO  Projekt1.Shelf  - All the films are cleared
+1    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+8    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmusch
+10   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+11   [main] INFO  Projekt1.Shelf  - All the films are cleared
+1    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+4    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+8    [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmusch
+8    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+10   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+4    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+5    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+7    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+8    [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmu
+8    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+9    [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+3    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+7    [main] INFO  Projekt1.Shelf  - Found films made by Jim Jarmush
+7    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+8    [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+7    [main] INFO  Projekt1.Shelf  - Found films made by Jim
+7    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+8    [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+3    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+5    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+6    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+7    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+8    [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+3    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+5    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+6    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+8    [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+8    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+10   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+4    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+7    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+9    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+10   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+8    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+10   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+11   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+3    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+5    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+7    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+9    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+10   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+3    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+5    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+6    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+10   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+11   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+3    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+4    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+6    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+7    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+9    [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+10   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] ERROR Projekt1.Shelf  - Year cannot be greater than 2011
+36   [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+37   [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+37   [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+38   [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+39   [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+44   [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+45   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+46   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+47   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+5    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+6    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+7    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+10   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+11   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+3    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+4    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+5    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+5    [main] INFO  Projekt1.Shelf  - Removed film from location  [0] [0]
+7    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+8    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+10   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+11   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+5    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+6    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+6    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+8    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+11   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+12   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+27   [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+28   [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+28   [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+30   [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+31   [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+33   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+33   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+34   [main] INFO  Projekt1.Shelf  - All the films are cleared
+1    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+5    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+6    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Removed film from location  [1] [0]
+8    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+11   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+11   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+12   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+5    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+5    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+6    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Removed film from location  [1] [0]
+8    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+11   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+11   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+12   [main] INFO  Projekt1.Shelf  - All the films are cleared

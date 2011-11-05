@@ -38,24 +38,30 @@ public class Main {
 
 		try {
 			f.setYearEx(2014);
-		} catch (MyException e) {
+		} 
+		
+		catch (MyException e) {
 
 			logger.error(e.getMessage());
 			// logger.fatal(e.getMessage());
 			// logger.warn(e.getMessage());
 			// e.printStackTrace();
-		} catch (Exception e) {
+		} 
+		
+		catch (Exception e) {
 		}
 
 		shelf.findByLocation(new Location(1, 0));
 
-		shelf.removeByLocation(new Location(0, 0));
+		shelf.removeByLocation(new Location(1, 0));
+		shelf.setNewFilm("La Comunidad", new Location(0,0), new Film("Wesele", "Wojciech Smarzowski", 2004));
 		shelf.show();
 		
 		shelf.findByYear(2004);
+
+		shelf.findByDirector("Jim J");
 		
-		// przerobić na szukanie na podstawie kilku znaków występujących w nazwisku reżysera
-		shelf.findByDirector("Jim Jarmusch");
+		shelf.findLocationByDirector("Jim J");
 		
 		shelf.changeLocation(new Location(2, 0), new Location (3, 0));
 		shelf.show();
