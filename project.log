@@ -623,3 +623,395 @@ Films are made by director Jim Jarmusch you can find in location: Bracia, Susann
 Films are made by director Jim Jarmusch you can find in location: null
 2011-11-09 13:19:54,460 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
 2011-11-09 13:19:54,461 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 14:55:46,820 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 14:55:46,834 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 14:55:46,834 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 14:55:46,834 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 14:55:46,835 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 14:55:46,837 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim J
+2011-11-09 14:55:46,837 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 14:55:46,837 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 14:55:46,838 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 14:57:41,701 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 14:57:41,706 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 14:57:41,712 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 14:57:41,712 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 14:57:41,713 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 14:57:41,714 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim J
+2011-11-09 14:57:41,715 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 14:57:41,717 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 14:57:41,719 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 14:58:39,879 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 14:58:39,884 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 14:58:39,886 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 14:58:39,886 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 14:58:39,887 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 14:58:39,888 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim J
+2011-11-09 14:58:39,889 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 14:58:39,891 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 14:58:39,892 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 14:59:12,948 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 14:59:12,951 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 14:59:12,952 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 14:59:12,953 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 14:59:12,954 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 14:59:12,954 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim J
+2011-11-09 14:59:12,955 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 14:59:12,958 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 14:59:12,959 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 15:00:00,781 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 15:00:00,796 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 15:00:00,802 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 15:00:00,808 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 15:00:00,813 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 15:00:00,818 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim J
+2011-11-09 15:00:00,821 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 15:00:00,826 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 15:00:00,833 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 15:35:39,281 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 15:35:39,286 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 15:35:39,287 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 15:35:39,287 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 15:35:39,287 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 15:35:39,287 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim J
+2011-11-09 15:35:39,288 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 15:35:39,288 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 15:35:39,288 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:25:56,549 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:25:56,563 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:25:56,563 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 20:25:56,563 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:25:56,564 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:25:56,564 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:25:56,564 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:25:56,564 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:25:56,565 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:31:34,258 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:31:34,265 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:31:34,265 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 20:31:34,265 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:31:34,265 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:31:34,267 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:31:34,267 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:31:34,268 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:31:34,269 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:32:29,187 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:32:29,192 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:32:29,193 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0]
+2011-11-09 20:32:29,194 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:32:29,194 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:32:29,195 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:32:29,195 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:32:29,195 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:32:29,197 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:34:59,851 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:34:59,855 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:34:59,857 [main] INFO  Projekt1.Shelf - Found the film in location  [1] [0] Soul Kitchen, Fatih Akin, 2010
+2011-11-09 20:34:59,857 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:34:59,858 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:34:59,858 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:34:59,858 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:34:59,859 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:34:59,860 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:36:45,902 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:36:45,904 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:36:45,906 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 20:36:45,906 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:36:45,907 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:36:45,907 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:36:45,908 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:36:45,908 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:36:45,910 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:53:36,684 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:53:36,687 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:53:36,688 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 20:53:36,689 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:53:36,689 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:53:36,689 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:53:36,690 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:53:36,691 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:53:36,691 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:53:36,695 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:55:01,962 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:55:01,965 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:55:01,966 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 20:55:01,967 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:55:01,967 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:55:01,968 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:55:01,968 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:55:01,969 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:55:01,969 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:55:01,973 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:58:03,793 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:58:03,799 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:58:03,800 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 20:58:03,800 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:58:03,801 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:58:03,801 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:58:03,802 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:58:03,802 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:58:03,803 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:58:03,804 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:58:58,530 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:58:58,535 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:58:58,536 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 20:58:58,537 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:58:58,537 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:58:58,537 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:58:58,538 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:58:58,539 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:58:58,539 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:58:58,540 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 20:59:43,099 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 20:59:43,105 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 20:59:43,106 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 20:59:43,107 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 20:59:43,107 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 20:59:43,108 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:59:43,108 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 20:59:43,109 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 20:59:43,109 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 20:59:43,111 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 21:03:49,208 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 21:03:49,212 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 21:03:49,213 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 21:03:49,214 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 21:03:49,214 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 21:03:49,215 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:03:49,215 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:03:49,216 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 21:03:49,216 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 21:03:49,217 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 21:05:01,672 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 21:05:01,676 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 21:05:01,678 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 21:05:01,678 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 21:05:01,679 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 21:05:01,679 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:05:01,679 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:05:01,680 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 21:05:01,681 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 21:05:01,681 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 21:06:06,002 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 21:06:06,008 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 21:06:06,008 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 21:06:06,009 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 21:06:06,009 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 21:06:06,009 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:06:06,009 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:06:06,009 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: null
+2011-11-09 21:06:06,010 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 21:06:06,012 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 21:06:26,276 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 21:06:26,282 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 21:06:26,282 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 21:06:26,282 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 21:06:26,283 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 21:06:26,283 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:06:26,283 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 21:06:26,283 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 21:06:26,285 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 21:06:26,286 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 22:21:34,703 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:21:34,708 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:21:34,709 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:21:34,710 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:21:34,710 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:21:34,711 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:21:34,711 [main] INFO  Projekt1.Shelf - 
+Films are made by director Jim Jarmusch you can find in location: { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 22:21:34,712 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 22:21:34,713 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 22:39:43,380 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:39:43,383 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:39:43,384 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:39:43,385 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:39:43,385 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:39:43,386 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:39:43,386 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:39:43,387 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 22:39:43,388 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 22:41:31,286 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:41:31,289 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:41:31,291 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:41:31,291 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:41:31,292 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:41:31,292 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:41:31,292 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:42:18,770 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:42:18,779 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:42:18,779 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:42:18,779 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:42:18,780 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:42:18,780 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:42:18,780 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:42:18,780 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 22:42:18,784 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 22:46:21,079 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:46:21,082 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:46:21,083 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:46:21,084 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:46:21,084 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:46:21,085 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:46:21,085 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:46:21,086 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 22:46:21,087 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 22:48:09,684 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:48:09,687 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:48:09,688 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:48:09,689 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:48:09,689 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:48:09,690 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:48:09,690 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:49:45,994 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:49:45,997 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:49:45,998 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:49:45,998 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:49:45,999 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:49:46,000 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:49:46,000 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:49:46,001 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 22:49:46,002 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 22:50:07,983 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:50:07,987 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:50:07,988 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:50:07,989 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:50:07,990 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:50:07,990 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:50:07,991 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:54:20,307 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 22:54:20,311 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 22:54:20,313 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 22:54:20,313 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 22:54:20,314 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 22:54:20,314 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:54:20,315 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 22:54:20,315 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 22:54:20,317 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 23:07:19,827 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:07:19,834 [main] INFO  Projekt1.Shelf - Showed hasmap(0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:07:19,834 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 23:07:19,840 [main] INFO  Projekt1.Shelf - Showed hasmap(-1,0) [Bracia, Susanne Bier, 2004] (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:07:19,840 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 23:07:19,841 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 23:07:19,841 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 23:07:19,842 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:07:19,842 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:07:19,843 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:07:19,843 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:07:19,844 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 23:07:19,845 [main] INFO  Projekt1.Shelf - Showed hasmap(-1,0) [Bracia, Susanne Bier, 2004] (0,0) [Wesele, Wojciech Smarzowski, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:07:19,845 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 23:07:19,846 [main] INFO  Projekt1.Shelf - Showed hasmap(0,0) [null] 
+
+2011-11-09 23:08:52,917 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:08:52,921 [main] INFO  Projekt1.Shelf - HasHMap: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:08:52,921 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 23:08:52,924 [main] INFO  Projekt1.Shelf - HasHMap: (-1,0) [Bracia, Susanne Bier, 2004] (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:08:52,924 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 23:08:52,925 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 23:08:52,925 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 23:08:52,926 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:08:52,926 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:08:52,927 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:08:52,927 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:08:52,928 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 23:08:52,929 [main] INFO  Projekt1.Shelf - HasHMap: (-1,0) [Bracia, Susanne Bier, 2004] (0,0) [Wesele, Wojciech Smarzowski, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:08:52,929 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 23:08:52,930 [main] INFO  Projekt1.Shelf - HasHMap: (0,0) [null] 
+
+2011-11-09 23:09:30,002 [main] INFO  Projekt1.Shelf - HasHMap: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:09:30,003 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 23:09:30,005 [main] INFO  Projekt1.Shelf - HasHMap: (-1,0) [Bracia, Susanne Bier, 2004] (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:09:30,006 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 23:09:30,006 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 23:09:30,006 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 23:09:30,007 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:09:30,007 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:09:30,008 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:09:30,008 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:09:30,009 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 23:09:30,010 [main] INFO  Projekt1.Shelf - HasHMap: (-1,0) [Bracia, Susanne Bier, 2004] (0,0) [Wesele, Wojciech Smarzowski, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:09:30,010 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 23:09:30,011 [main] INFO  Projekt1.Shelf - HasHMap: (0,0) [null] 
+
+2011-11-09 23:09:44,324 [main] INFO  Projekt1.Main - (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:09:44,327 [main] INFO  Projekt1.Shelf - HasHMap: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:09:44,327 [main] INFO  Projekt1.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+2011-11-09 23:09:44,329 [main] INFO  Projekt1.Shelf - HasHMap: (-1,0) [Bracia, Susanne Bier, 2004] (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:09:44,329 [main] INFO  Projekt1.Shelf - Found the film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-09 23:09:44,330 [main] INFO  Projekt1.Shelf - Removed film from location  [1] [0]
+2011-11-09 23:09:44,330 [main] WARN  Projekt1.Main - Projekt1.FilmNotFoundException: There are not films from year: 2045
+2011-11-09 23:09:44,330 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:09:44,331 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:09:44,331 [main] INFO  Projekt1.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-09 23:09:44,333 [main] INFO  Projekt1.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-09 23:09:44,333 [main] INFO  Projekt1.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-09 23:09:44,334 [main] INFO  Projekt1.Shelf - HasHMap: (-1,0) [Bracia, Susanne Bier, 2004] (0,0) [Wesele, Wojciech Smarzowski, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-09 23:09:44,334 [main] INFO  Projekt1.Shelf - All the films are cleared
+2011-11-09 23:09:44,335 [main] INFO  Projekt1.Shelf - HasHMap: (0,0) [null] 
+

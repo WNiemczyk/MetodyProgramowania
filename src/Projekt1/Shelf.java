@@ -73,13 +73,7 @@ public class Shelf {
 	public void show() {
 
 		System.out.println(toString());
-
-	}
-
-	public void findByLocation(Location location) {
-
-		System.out.println(getExistedFilms().get(location));
-		logger.info("Found the film in location " + location);
+		logger.info("Current HasHMap: " + this.toString());
 	}
 
 	public void put(Location location, Film film) {
@@ -93,6 +87,13 @@ public class Shelf {
 		logger.info("Removed film from location " + location);
 	}
 
+
+	public void findByLocation(Location location) {
+		
+		this.getExistedFilms().get(location);
+		logger.info("Found the film " + getExistedFilms().get(location) + " in location " + location);
+	}
+	
 	public void setNewFilm(String t, Location l, Film f) {
 
 		String title = "";
@@ -108,7 +109,7 @@ public class Shelf {
 	}
 
 	public void changeLocation(Location l1, Location l2) {
-
+		
 		Film location1 = existedFilms.get(l1);
 		Film location2 = existedFilms.get(l2);
 		this.existedFilms.put(l1, (Film) location2);
@@ -149,14 +150,9 @@ public class Shelf {
 	public Map<Location, Film> findByDirector(String d)
 			throws FilmNotFoundException {
 
-		// String director = "";
-
 		Map<Location, Film> foundedFilms = new HashMap<Location, Film>();
 
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
-
-			// director = e.getValue().getDirector();
-			// film2 = e.getValue().getTitle();
 
 			// equals potrzebuje pełnej nazwy
 			if (e.getValue().getDirector().contains(d))
@@ -173,34 +169,40 @@ public class Shelf {
 
 	}
 
-	public Map<Location, Film> findLocationByDirector(String d) throws FilmNotFoundException{
+	
+	// wykorzystać metodę findByDirector
+	public Map<Location, Film> findLocationByDirector(Map<Location, Film> f) throws FilmNotFoundException{
 
-		// String film = "";
-		Location l = null;
+		//Location location = null;
 		
-		Map<Location, Film> foundedFilms = new HashMap<Location, Film>();
-
+		Map<Location, Film> foundedFilms = f;
+		
+		System.out.println(foundedFilms.isEmpty());
+		
+		return foundedFilms;
+	}
+		/*
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
-			// film = e.getValue().getDirector();
-			l = e.getKey();
+			location = e.getKey();
 
 			// equals potrzebuje pełnej nazwy
 			if (e.getValue().getDirector().contains(d))
 				foundedFilms.put(e.getKey(), e.getValue());
 		
 		}
+	
 
 		if (foundedFilms.size() == 0)
 			throw new FilmNotFoundException("There are not films by director: "
-					+ d);
+					+ f);
 		
-		logger.info("\nFilms are made by director " + d
-				+ " you can find in location: " + foundedFilms.get(l));
-	
+		logger.info("\nFilms are made by director " + f
+				+ " you can find in location: " + foundedFilms.toString()); // jak wyświetlić tylko location?	
 		return foundedFilms;
 	}
-
+	*/
+		
 	public Map<Location, Film> getExistedFilms() {
 		return existedFilms;
 	}

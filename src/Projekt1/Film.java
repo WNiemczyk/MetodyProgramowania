@@ -20,9 +20,9 @@ public class Film {
 		this.year = year;
 	}
 
-	public void setYearEx(int year) throws MyException{
+	public void setYearException(int year) throws YearNotFoundException{
 		if (year > 2012)
-			throw new MyException("Year cannot be greater than 2011");
+			throw new YearNotFoundException("Year cannot be greater than 2011");
 		else this.year = year;
 	}
 	

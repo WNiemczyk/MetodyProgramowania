@@ -1,5 +1,6 @@
 package Projekt1;
 
+
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.Logger;
 
@@ -9,22 +10,29 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// dopisać wyjątek - błąd, który nie został obsłużony
-		// zaimportowaliśmy bibliotekę log4j - tworzymy katalog lib, import,
-		// logi - zapisywanie do pliku, skorzystać z vaannila.com
-
-		// PropertyComfigurator.configure("Log4J.properties");
-
-		// w logach informacja, że coś dodano, usunięto
-		// 1. logi do wszystkiego (raport - w metodach dopisać
-		// logger.info("Dodano " + cos)) i 2. logi tylko z błędami
-
-		// Półka z filmami (HashMap <KEY = lokalizacja (x, y)> <VALUE = film
-		// (tytuł, reżyser, rok produkcji)>)
-
-		// BasicConfigurator.configure();
-
 		PropertyConfigurator.configure("Log4J.properties");
+
+		// klasa która dziedziczy po eventObject - coś się wydarzyło, skończył
+		// się olej i chcemy change oil, rotate wheel, wash (obiekty)
+		// interfejs, który implementuje klasy rotate, wash, change oil
+		//
+		// jUnit zaimportować tak jak Log4J
+		// testy klas Shelf, Film, Location - Eclipse wygeneruje wszystkie
+		// metody klas, Before i After
+		// vogella.de - 2 ostatnie tabele -- asercje
+		// assertTrue(p.getCars().size()>0);
+		// assertNotNull(p.getCars());
+		// assertSame(c, p.getCars().get(0)) - sprawdzamy referencje
+		// assertEquals(p.toString(), "Adam has 0 cars.")
+		// testujemy metody, które mają wyrzucić wyjątek
+		// sprawdzić w projekcie, czy metody działają
+		// do wtorku
+
+		// metoda static nie potrzebuje tworzenia obiektów, dostajemy się do
+		// metody nie tworząc jej obiektu
+
+	
+		// enumy wrzucić
 
 		Shelf shelf = new Shelf();
 		logger.info(shelf.toString());
@@ -32,43 +40,55 @@ public class Main {
 
 		shelf.put(new Location(-1, 0), new Film("Bracia", "Susanne Bier", 2004));
 		shelf.show();
-		
+
 		shelf.findByLocation(new Location(1, 0));
 
 		shelf.removeByLocation(new Location(1, 0));
-		
-		
+
 		try {
 			logger.info(shelf.findByYear(2045));
 		} catch (FilmNotFoundException e) {
 			logger.warn(e.toString());
 		}
 
-		
 		try {
-			shelf.findByDirector("Jim J");
+			logger.info(shelf.findByDirector("Jim Jarmusch"));
 		} catch (FilmNotFoundException e) {
 			logger.warn(e.toString());
 		}
-		
-		
+
 		try {
-			shelf.findLocationByDirector("Jim Jarmusch");
+			logger.info(shelf.findLocationByDirector(shelf.findByDirector("Jim Jarmusch")));
 		} catch (FilmNotFoundException e) {
-		
-			logger.warn(e.toString());	
+			logger.warn(e.toString());
 		}
+
+		// shelf.show();
+		shelf.setNewFilm("La Comunidad", new Location(0, 0), new Film("Wesele",
+				"Wojciech Smarzowski", 2004));
+		// shelf.show();
+
+		shelf.changeLocation(new Location(2, 0), new Location(3, 0));
 		
 		shelf.show();
-		shelf.setNewFilm("La Comunidad", new Location(0,0), new Film("Wesele", "Wojciech Smarzowski", 2004));
-		shelf.show();
-		
-		shelf.changeLocation(new Location(2, 0), new Location (3, 0));
-		shelf.show();
-		
+
 		shelf.clearAll();
 		shelf.show();
 
 	}
 
 }
+// dopisać wyjątek - błąd, który nie został obsłużony
+// zaimportowaliśmy bibliotekę log4j - tworzymy katalog lib, import,
+// logi - zapisywanie do pliku, skorzystać z vaannila.com
+
+// PropertyComfigurator.configure("Log4J.properties");
+
+// w logach informacja, że coś dodano, usunięto
+// 1. logi do wszystkiego (raport - w metodach dopisać
+// logger.info("Dodano " + cos)) i 2. logi tylko z błędami
+
+// Półka z filmami (HashMap <KEY = lokalizacja (x, y)> <VALUE = film
+// (tytuł, reżyser, rok produkcji)>)
+
+// BasicConfigurator.configure();
