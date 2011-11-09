@@ -8,7 +8,6 @@ public class Main {
 	private static Logger logger = Logger.getLogger(Main.class);
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// dopisać wyjątek - błąd, który nie został obsłużony
 		// zaimportowaliśmy bibliotekę log4j - tworzymy katalog lib, import,
@@ -28,40 +27,41 @@ public class Main {
 		PropertyConfigurator.configure("Log4J.properties");
 
 		Shelf shelf = new Shelf();
-		
+		logger.info(shelf.toString());
 		shelf.show();
 
 		shelf.put(new Location(-1, 0), new Film("Bracia", "Susanne Bier", 2004));
 		shelf.show();
 		
-		Film f = new Film("Aki Kaurismaki", "La Havre", 2011);
-
-		try {
-			f.setYearEx(2014);
-		} 
-		
-		catch (MyException e) {
-
-			logger.error(e.getMessage());
-			// logger.fatal(e.getMessage());
-			// logger.warn(e.getMessage());
-			// e.printStackTrace();
-		} 
-		
-		catch (Exception e) {
-		}
-
 		shelf.findByLocation(new Location(1, 0));
 
 		shelf.removeByLocation(new Location(1, 0));
+		
+		
+		try {
+			logger.info(shelf.findByYear(2045));
+		} catch (FilmNotFoundException e) {
+			logger.warn(e.toString());
+		}
+
+		
+		try {
+			shelf.findByDirector("Jim J");
+		} catch (FilmNotFoundException e) {
+			logger.warn(e.toString());
+		}
+		
+		
+		try {
+			shelf.findLocationByDirector("Jim Jarmusch");
+		} catch (FilmNotFoundException e) {
+		
+			logger.warn(e.toString());	
+		}
+		
+		shelf.show();
 		shelf.setNewFilm("La Comunidad", new Location(0,0), new Film("Wesele", "Wojciech Smarzowski", 2004));
 		shelf.show();
-		
-		shelf.findByYear(2004);
-
-		shelf.findByDirector("Jim J");
-		
-		shelf.findLocationByDirector("Jim J");
 		
 		shelf.changeLocation(new Location(2, 0), new Location (3, 0));
 		shelf.show();

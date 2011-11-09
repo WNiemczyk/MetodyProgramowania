@@ -299,3 +299,51 @@
 11   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
 11   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
 12   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+26   [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+27   [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+27   [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+27   [main] INFO  Projekt1.Shelf  - Removed film from location  [1] [0]
+29   [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+31   [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+32   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+33   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+34   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+5    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+5    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Removed film from location  [1] [0]
+7    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+8    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+12   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+12   [main] INFO  Projekt1.Shelf  - All the films are cleared
+0    [main] WARN  Projekt1.Shelf  - Year cannot be greater than 2011
+4    [main] INFO  Projekt1.Shelf  - Added film Bracia, Susanne Bier, 2004 in location  [-1] [0]
+5    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+6    [main] INFO  Projekt1.Shelf  - Found the film in location  [1] [0]
+6    [main] INFO  Projekt1.Shelf  - Removed film from location  [1] [0]
+8    [main] INFO  Projekt1.Shelf  - Found all the films from year2004
+9    [main] INFO  Projekt1.Shelf  - Found films made by Jim J
+10   [main] INFO  Projekt1.Shelf  - Found films made by Jim J in location  [-1] [0]
+12   [main] INFO  Projekt1.Shelf  - Changed films from location  [2] [0] into  [3] [0] and viceversa
+13   [main] INFO  Projekt1.Shelf  - All the films are cleared
+10   [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+0    [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+2011-11-08 20:27:44,892 [main] ERROR Projekt1.Main  - Year cannot be greater than 2011
+2011-11-08 20:29:39,499 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 20:33:23,993 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 20:35:35,434 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 20:37:07,827 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 20:38:21,884 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 20:39:08,065 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 20:45:26,916 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 20:47:57,863 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 21:00:23,270 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 21:12:21,603 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 21:21:12,822 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 21:22:05,258 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-08 21:24:34,869 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-09 11:53:29,883 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
+2011-11-09 12:17:30,231 [main] ERROR Projekt1.Main - Year cannot be greater than 2011
