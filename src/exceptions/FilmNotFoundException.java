@@ -1,4 +1,4 @@
-package films;
+package exceptions;
 
 public class FilmNotFoundException extends Exception {
 

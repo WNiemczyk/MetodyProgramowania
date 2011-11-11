@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
-import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.Logger;
+
+import exceptions.FilmNotFoundException;
+import exceptions.LocationIsNullException;
 
 import statuses.AvailableFilm;
 
@@ -15,7 +16,7 @@ public class Shelf {
 
 	private static Logger logger = Logger.getLogger(Shelf.class);
 	private final static int SHELF_HEIGHT = 15;
-	private final static int SHELF_SZEROKOSC = 5;
+	private final static int SHELF_WIDTH = 5;
 
 	private Map<Location, Film> existedFilms;
 
@@ -29,9 +30,10 @@ public class Shelf {
 		this.existedFilms.put(new Location(0, 0), new Film("La Comunidad",
 				"de la Iglesia", 2004, new AvailableFilm()));
 		this.existedFilms.put(new Location(1, 0), new Film("Soul Kitchen",
-				"Fatih Akin", 2010,new AvailableFilm()));
+				"Fatih Akin", 2010, new AvailableFilm()));
 		this.existedFilms.put(new Location(2, 0), new Film(
-				"The Limits of Control", "Jim Jarmusch", 2009, new AvailableFilm()));
+				"The Limits of Control", "Jim Jarmusch", 2009,
+				new AvailableFilm()));
 		this.existedFilms.put(new Location(3, 0), new Film("Broken Flowers",
 				"Jim Jarmusch", 2005, new AvailableFilm()));
 		this.existedFilms.put(new Location(4, 0), new Film("Dom zły",
@@ -81,98 +83,125 @@ public class Shelf {
 		logger.info("Current films: " + this.toString());
 	}
 
-	public void put(Location location, Film film) {
-		this.existedFilms.put(location, film);
-		logger.info("Added film " + film + " in location " + location);
+	public void put(Location l, Film f) throws LocationIsNullException {
+
+		Location location = null;
+		Map<Location, Film> existedFilms = new HashMap<Location, Film>();
+		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
+			location = e.getKey();
+			
+			if(location != l)
+				this.existedFilms.put(l, f);
+		}
+
+		if (location == l)
+			throw new LocationIsNullException(
+					"Cannot put film in occupied location");
+	
+		logger.info("Added film " + f + " in location " + l);
 	}
 
-	private Location getFreeLocation(){
-		Location l = new Location(0,0);
+	private Location getFreeLocation() {
+		Location l = new Location(0, 0);
 		Location rl = null;
-		//TODO uzupełnić
-/*		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
-			if (e.getKey().getY() == this.SHELF_HEIGHT){
-				throw new EndOfShelfException; //TODO dopisac wyjatek
-			} else if ((e.getKey().getX() == this.SHELF_SZEROKOSC) && (e.getKey().getY()<this.SHELF_HEIGHT)){
-				l.setY(e.getKey().getY()+1);
-			} else if ((e.getKey().getX() < this.SHELF_SZEROKOSC) && (l.getX() <= e.getKey().getX())){
-				l.setX(e.getKey().getX() + 1);
-			} else if ()
-			
-		}*/
-		
+		// TODO uzupełnić
+		/*
+		 * for (Map.Entry<Location, Film> e : existedFilms.entrySet()) { if
+		 * (e.getKey().getY() == this.SHELF_HEIGHT){ throw new
+		 * EndOfShelfException; } else if ((e.getKey().getX() ==
+		 * this.SHELF_WIDTH) && (e.getKey().getY() > 0 &&
+		 * e.getKey().getY()<this.SHELF_HEIGHT)){ l.setY(e.getKey().getY()+1); }
+		 * else if ((e.getKey().getX() < this.SHELF_WIDTH) && (l.getX() <=
+		 * e.getKey().getX())){ l.setX(e.getKey().getX() + 1); } else if ()
+		 * 
+		 * }
+		 */
+
 		return l;
 	}
-	
-	//TODO stworzyć osobny pakiet na wyjątki
-	
-	public void put(Film film){
+
+	public void put(Film film) throws LocationIsNullException {
 		Location l = this.getFreeLocation();
-		this.put(l,  film);
+		this.put(l, film);
 	}
-	
+
 	/*
-	public void put(List<Film> films){
-		for(Film f: films){
-			put(f);
-		}
-	logger.info("Added new films " + films);
-	}
-	*/
-	
+	 * public void put(List<Film> films){ for(Film f: films){ put(f); }
+	 * logger.info("Added new films " + films); }
+	 */
+
 	public void removeByLocation(Location location) {
 
 		this.getExistedFilms().remove(location);
 		logger.info("Removed film from location " + location);
-		//TODO uwaga na wyznaczanie wolnej lokalizacji - przestawienie filmów
+		// TODO uwaga na wyznaczanie wolnej lokalizacji - przestawienie filmów
 	}
 
+	public void findByLocation(Location l) throws LocationIsNullException {
 
-	public void findByLocation(Location location) {
-		
-		this.getExistedFilms().get(location);
-		logger.info("Found film " + getExistedFilms().get(location) + " in location " + location);
+		Film location = null;
+		location = this.getExistedFilms().get(l);
+		if (location == null)
+			throw new LocationIsNullException("There is no film in location: "
+					+ l);
+
+		logger.info("Found film " + location + " in location " + l);
 	}
-	
-	public void setNewFilm(String t, Location l, Film f) {
+
+	public Map<Location, Film> setNewFilmOnOccupiedLocation(String t,
+			Location l, Film f) throws FilmNotFoundException,
+			LocationIsNullException {
 
 		String title = "";
 		Film ftm = null;
-		
+
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
 			title = e.getValue().getTitle();
 
-			if (title.equals(t)){
-				this.existedFilms.put(e.getKey(), f);
-				ftm = e.getValue();		
+			if (title.equals(t)) {
+				// this.existedFilms.put(e.getKey(), f);
+				ftm = e.getValue();
 				this.put(ftm);
 				break;
 			}
-			
+
+			if (ftm == null)
+				throw new FilmNotFoundException("There is not film with title"
+						+ ftm.getTitle());
 		}
 
-		logger.info("New film " + f + " is putted instead film " + t);
+		logger.info("New film " + f + " is putted instead of film " + t);
+
+		return existedFilms;
 	}
 
-	public void changeLocation(Location l1, Location l2) {
-		
+	public Location changeLocation(Location l1, Location l2)
+			throws LocationIsNullException {
+
 		Film location1 = existedFilms.get(l1);
 		Film location2 = existedFilms.get(l2);
-		this.existedFilms.put(l1, (Film) location2);
-		this.existedFilms.put(l2, (Film) location1);
+
+		if ((location1 == null) || (location2 == null)) {
+			throw new LocationIsNullException("Cannot give empty location");
+		} else {
+			this.existedFilms.put(l1, (Film) location2);
+			this.existedFilms.put(l2, (Film) location1);
+		}
+
 		logger.info("Changed films from location " + l1 + " into " + l2
 				+ " and viceversa");
+
+		return l2;
 	}
 
 	public void clearAll() {
 
 		this.getExistedFilms().clear();
-		logger.info("All the films are cleared");
+		logger.info("All films are cleared");
 	}
 
 	public Map<Location, Film> findByYear(int y) throws FilmNotFoundException {
-
 
 		Map<Location, Film> foundedFilms = new HashMap<Location, Film>();
 
@@ -186,8 +215,9 @@ public class Shelf {
 			throw new FilmNotFoundException("There are not films from year: "
 					+ y);
 
-		logger.info("There are " + foundedFilms.size() + " films from year " + y);
- 
+		logger.info("There are " + foundedFilms.size() + " films from year "
+				+ y);
+
 		return foundedFilms;
 	}
 
@@ -212,48 +242,47 @@ public class Shelf {
 
 	}
 
-	
-
-	public ArrayList<Location> findLocationByDirector(String d) throws FilmNotFoundException{
+	public ArrayList<Location> findLocationByDirector(String d)
+			throws LocationIsNullException {
 
 		ArrayList<Location> locations = new ArrayList<Location>();
-		
+
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
 			if (e.getValue().getDirector().contains(d))
 				locations.add(e.getKey());
 		}
-		
-		if (locations.isEmpty()) throw new FilmNotFoundException("There are not films by director: "
-				+ d);
-		
+
+		if (locations.isEmpty())
+			throw new LocationIsNullException(
+					"There are not films by director: " + d);
+
 		logger.info("Films made by " + d + " you can find in locations:");
-		
+
 		return locations;
-		
+
 	}
-		/*
-		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
-			location = e.getKey();
+	/*
+	 * for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
+	 * 
+	 * location = e.getKey();
+	 * 
+	 * // equals potrzebuje pełnej nazwy if
+	 * (e.getValue().getDirector().contains(d)) foundedFilms.put(e.getKey(),
+	 * e.getValue());
+	 * 
+	 * }
+	 * 
+	 * 
+	 * if (foundedFilms.size() == 0) throw new
+	 * FilmNotFoundException("There are not films by director: " + f);
+	 * 
+	 * logger.info("\nFilms are made by director " + f +
+	 * " you can find in location: " + foundedFilms.toString()); // jak
+	 * wyświetlić tylko location? return foundedFilms; }
+	 */
 
-			// equals potrzebuje pełnej nazwy
-			if (e.getValue().getDirector().contains(d))
-				foundedFilms.put(e.getKey(), e.getValue());
-		
-		}
-	
-
-		if (foundedFilms.size() == 0)
-			throw new FilmNotFoundException("There are not films by director: "
-					+ f);
-		
-		logger.info("\nFilms are made by director " + f
-				+ " you can find in location: " + foundedFilms.toString()); // jak wyświetlić tylko location?	
-		return foundedFilms;
-	}
-	*/
-		
 	public Map<Location, Film> getExistedFilms() {
 		return existedFilms;
 	}

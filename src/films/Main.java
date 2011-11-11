@@ -1,14 +1,9 @@
 package films;
-
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.Logger;
 
+import exceptions.FilmNotFoundException;
+import exceptions.LocationIsNullException;
 import statuses.AvailableFilm;
 
 public class Main {
@@ -22,10 +17,20 @@ public class Main {
 		Shelf shelf = new Shelf();
 		shelf.show();
 
-		shelf.put(new Location(-1, 0), new Film("Bracia", "Susanne Bier", 2004, new AvailableFilm()));
+		
+		try {
+			shelf.put(new Location(1, 0), new Film("Bracia", "Susanne Bier", 2004, new AvailableFilm()));
+		} catch (LocationIsNullException e) {
+			logger.warn(e.toString());
+		}
+		
 		shelf.show();
 
-		shelf.findByLocation(new Location(1, 0));
+		try {
+			shelf.findByLocation(new Location(1, 0));
+		} catch (LocationIsNullException e) {
+			logger.warn(e.toString());
+		}
 
 		shelf.removeByLocation(new Location(1, 0));
 
@@ -43,16 +48,28 @@ public class Main {
 
 		try {
 			logger.info(shelf.findLocationByDirector("Jarmusch"));
-		} catch (FilmNotFoundException e) {
+		} catch (LocationIsNullException e) {
 			logger.warn(e.toString());
 		}
 
 		
-		shelf.setNewFilm("La Comunidad", new Location(0, 0), new Film("Róża",
-				"Wojciech Smarzowski", 2010, new AvailableFilm()));
+		try {
+			try {
+				logger.info(shelf.setNewFilmOnOccupiedLocation("La Comunidad", new Location(0, 0), new Film("Róża",
+						"Wojciech Smarzowski", 2010, new AvailableFilm())));
+			} catch (LocationIsNullException e) {
+				logger.warn(e.toString());
+			}
+		} catch (FilmNotFoundException e) {
+			logger.warn(e.toString());
+		}
 		
 
-		shelf.changeLocation(new Location(2, 0), new Location(3, 0));
+		try {
+			logger.info(shelf.changeLocation(new Location(2, 0), new Location(3, 0)));
+		} catch (LocationIsNullException e) {
+			logger.warn(e.toString());
+		}
 		
 		shelf.show();
 
@@ -66,7 +83,7 @@ public class Main {
 		newFilms.add(new Film("Taxi Driver", "Martin Scorsese", 1976, new AvailableFilm()));
 		newFilms.add(new Film("Snatch", "Guy Ritchie", 2000, new AvailableFilm()));
 		newFilms.add(new Film("Nóż w wodzie", "Roman Polański", 1961, new AvailableFilm()));
-		
+		                                           
 		shelf.put(newFilms);
 		shelf.show();
 		*/

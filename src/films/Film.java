@@ -1,12 +1,9 @@
 package films;
-
-import org.apache.log4j.Logger;
-
+import exceptions.YearNotFoundException;
 import statuses.FilmStatus;
 
 public class Film {
 
-	private static Logger logger = Logger.getLogger(Film.class);
 	private String title;
 	private String director;
 	private int year;
