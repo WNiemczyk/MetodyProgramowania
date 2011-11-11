@@ -1,6 +1,8 @@
-package Projekt1;
+package films;
 
 import org.apache.log4j.Logger;
+
+import statuses.FilmStatus;
 
 public class Film {
 
@@ -8,16 +10,19 @@ public class Film {
 	private String title;
 	private String director;
 	private int year;
-	
+	private FilmStatus status;
+
+
 	public Film() {
 
 	}
 
-	public Film(String title, String director, int year) {
+	public Film(String title, String director, int year, FilmStatus status) {
 
 		this.title = title;
 		this.director = director;
 		this.year = year;
+		this.status = status;
 	}
 
 	public void setYearException(int year) throws YearNotFoundException{
@@ -57,4 +62,11 @@ public class Film {
 		this.year = year;
 	}
 
+	public FilmStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(FilmStatus status) {
+		this.status = status;
+	}
 }

@@ -1,15 +1,21 @@
-package Projekt1;
+package films;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.Logger;
 
+import statuses.AvailableFilm;
+
 public class Shelf {
 
 	private static Logger logger = Logger.getLogger(Shelf.class);
+	private final static int SHELF_HEIGHT = 15;
+	private final static int SHELF_SZEROKOSC = 5;
 
 	private Map<Location, Film> existedFilms;
 
@@ -21,15 +27,15 @@ public class Shelf {
 
 	public void init() {
 		this.existedFilms.put(new Location(0, 0), new Film("La Comunidad",
-				"de la Iglesia", 2004));
+				"de la Iglesia", 2004, new AvailableFilm()));
 		this.existedFilms.put(new Location(1, 0), new Film("Soul Kitchen",
-				"Fatih Akin", 2010));
+				"Fatih Akin", 2010,new AvailableFilm()));
 		this.existedFilms.put(new Location(2, 0), new Film(
-				"The Limits of Control", "Jim Jarmusch", 2009));
+				"The Limits of Control", "Jim Jarmusch", 2009, new AvailableFilm()));
 		this.existedFilms.put(new Location(3, 0), new Film("Broken Flowers",
-				"Jim Jarmusch", 2005));
+				"Jim Jarmusch", 2005, new AvailableFilm()));
 		this.existedFilms.put(new Location(4, 0), new Film("Dom zły",
-				"Wojciech Smarzowski", 2009));
+				"Wojciech Smarzowski", 2009, new AvailableFilm()));
 
 	}
 
@@ -72,8 +78,7 @@ public class Shelf {
 
 	public void show() {
 
-		System.out.println(toString());
-		logger.info("Current HasHMap: " + this.toString());
+		logger.info("Current films: " + this.toString());
 	}
 
 	public void put(Location location, Film film) {
@@ -81,31 +86,73 @@ public class Shelf {
 		logger.info("Added film " + film + " in location " + location);
 	}
 
+	private Location getFreeLocation(){
+		Location l = new Location(0,0);
+		Location rl = null;
+		//TODO uzupełnić
+/*		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
+			if (e.getKey().getY() == this.SHELF_HEIGHT){
+				throw new EndOfShelfException; //TODO dopisac wyjatek
+			} else if ((e.getKey().getX() == this.SHELF_SZEROKOSC) && (e.getKey().getY()<this.SHELF_HEIGHT)){
+				l.setY(e.getKey().getY()+1);
+			} else if ((e.getKey().getX() < this.SHELF_SZEROKOSC) && (l.getX() <= e.getKey().getX())){
+				l.setX(e.getKey().getX() + 1);
+			} else if ()
+			
+		}*/
+		
+		return l;
+	}
+	
+	//TODO stworzyć osobny pakiet na wyjątki
+	
+	public void put(Film film){
+		Location l = this.getFreeLocation();
+		this.put(l,  film);
+	}
+	
+	/*
+	public void put(List<Film> films){
+		for(Film f: films){
+			put(f);
+		}
+	logger.info("Added new films " + films);
+	}
+	*/
+	
 	public void removeByLocation(Location location) {
 
 		this.getExistedFilms().remove(location);
 		logger.info("Removed film from location " + location);
+		//TODO uwaga na wyznaczanie wolnej lokalizacji - przestawienie filmów
 	}
 
 
 	public void findByLocation(Location location) {
 		
 		this.getExistedFilms().get(location);
-		logger.info("Found the film " + getExistedFilms().get(location) + " in location " + location);
+		logger.info("Found film " + getExistedFilms().get(location) + " in location " + location);
 	}
 	
 	public void setNewFilm(String t, Location l, Film f) {
 
 		String title = "";
-
+		Film ftm = null;
+		
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
 			title = e.getValue().getTitle();
 
-			if (title.equals(t))
-				this.existedFilms.put(l, f);
+			if (title.equals(t)){
+				this.existedFilms.put(e.getKey(), f);
+				ftm = e.getValue();		
+				this.put(ftm);
+				break;
+			}
+			
 		}
 
+		logger.info("New film " + f + " is putted instead film " + t);
 	}
 
 	public void changeLocation(Location l1, Location l2) {
@@ -126,13 +173,10 @@ public class Shelf {
 
 	public Map<Location, Film> findByYear(int y) throws FilmNotFoundException {
 
-		// int year = 0;
 
 		Map<Location, Film> foundedFilms = new HashMap<Location, Film>();
 
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
-
-			// year = e.getValue().getYear();
 
 			if (e.getValue().getYear() == y)
 				foundedFilms.put(e.getKey(), e.getValue());
@@ -154,7 +198,6 @@ public class Shelf {
 
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
 
-			// equals potrzebuje pełnej nazwy
 			if (e.getValue().getDirector().contains(d))
 				foundedFilms.put(e.getKey(), e.getValue());
 		}
@@ -170,16 +213,24 @@ public class Shelf {
 	}
 
 	
-	// wykorzystać metodę findByDirector
-	public Map<Location, Film> findLocationByDirector(Map<Location, Film> f) throws FilmNotFoundException{
 
-		//Location location = null;
+	public ArrayList<Location> findLocationByDirector(String d) throws FilmNotFoundException{
+
+		ArrayList<Location> locations = new ArrayList<Location>();
 		
-		Map<Location, Film> foundedFilms = f;
+		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
+
+			if (e.getValue().getDirector().contains(d))
+				locations.add(e.getKey());
+		}
 		
-		System.out.println(foundedFilms.isEmpty());
+		if (locations.isEmpty()) throw new FilmNotFoundException("There are not films by director: "
+				+ d);
 		
-		return foundedFilms;
+		logger.info("Films made by " + d + " you can find in locations:");
+		
+		return locations;
+		
 	}
 		/*
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {

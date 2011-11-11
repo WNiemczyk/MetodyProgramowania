@@ -2,7 +2,9 @@ package events;
 
 import java.util.EventObject;
 
-import Projekt1.Film;
+import films.Film;
+import films.Shelf;
+
 
 public class FilmEvent extends EventObject {
 

@@ -4,13 +4,18 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import Projekt1.Film;
+import org.apache.log4j.Logger;
+
+import films.Film;
+
 
 public class Process {
 
+	private static Logger logger = Logger.getLogger(Process.class);
+	
 	private Film film;
-	private List filmProcesses = new ArrayList();
-
+	private List<InterfaceFilmListeners> filmProcesses = new ArrayList<InterfaceFilmListeners>();
+	
 	public synchronized void addFilmProcess(InterfaceFilmListeners process) {
 
 		filmProcesses.add(process);
@@ -27,7 +32,8 @@ public class Process {
 
 		Iterator i = filmProcesses.iterator();
 		while (i.hasNext()) {
-			((InterfaceFilmListeners) i.next()).processFilm(filmEvent);
+			((InterfaceFilmListeners) i.next()).processFilm(filmEvent);			
+			logger.info(film.getTitle() + " : " + film.getStatus().getName());
 		}
 	}
 }

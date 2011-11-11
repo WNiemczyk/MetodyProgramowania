@@ -1,11 +1,14 @@
 package events;
 
+import statuses.BorrowedFilm;
+
 public class BorrowFilm implements InterfaceFilmListeners {
 
 	@Override
 	public void processFilm(FilmEvent film) {
 	
-		System.out.println(film.getFilm() + " is borrowed");
+		film.getFilm().setStatus(new BorrowedFilm());
+		
 	}
 
 }

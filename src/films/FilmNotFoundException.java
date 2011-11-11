@@ -1,4 +1,4 @@
-package Projekt1;
+package films;
 
 public class FilmNotFoundException extends Exception {
 
