@@ -12,7 +12,7 @@ import films.Film;
 public class Process {
 
 	private static Logger logger = Logger.getLogger(Process.class);
-	
+
 	private Film film;
 	private List<InterfaceFilmListeners> filmProcesses = new ArrayList<InterfaceFilmListeners>();
 	
@@ -35,6 +35,22 @@ public class Process {
 			((InterfaceFilmListeners) i.next()).processFilm(filmEvent);			
 			logger.info(film.getTitle() + " : " + film.getStatus().getName());
 		}
+	}
+	
+	public Film getFilm() {
+		return film;
+	}
+
+	public void setFilm(Film film) {
+		this.film = film;
+	}
+
+	public List<InterfaceFilmListeners> getFilmProcesses() {
+		return filmProcesses;
+	}
+
+	public void setFilmProcesses(List<InterfaceFilmListeners> filmProcesses) {
+		this.filmProcesses = filmProcesses;
 	}
 }
 // atrybuty, które opisują stan obiektu i chcemy coś w nim zmienić

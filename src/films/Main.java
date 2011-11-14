@@ -1,10 +1,15 @@
 package films;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.Logger;
 
+import exceptions.EndOfShelfException;
 import exceptions.FilmNotFoundException;
 import exceptions.LocationIsNullException;
 import statuses.AvailableFilm;
+import statuses.BorrowedFilm;
 
 public class Main {
 
@@ -16,10 +21,15 @@ public class Main {
 
 		Shelf shelf = new Shelf();
 		shelf.show();
-
+	
+		try {
+			shelf.getFreeLocation();
+		} catch (EndOfShelfException e) {
+			logger.warn(e.toString());
+		}
 		
 		try {
-			shelf.put(new Location(1, 0), new Film("Bracia", "Susanne Bier", 2004, new AvailableFilm()));
+			shelf.putInFreeLocation(new Location(5, 0), new Film("Bracia", "Susanne Bier", 2004, new AvailableFilm()));
 		} catch (LocationIsNullException e) {
 			logger.warn(e.toString());
 		}
@@ -55,8 +65,13 @@ public class Main {
 		
 		try {
 			try {
-				logger.info(shelf.setNewFilmOnOccupiedLocation("La Comunidad", new Location(0, 0), new Film("Róża",
-						"Wojciech Smarzowski", 2010, new AvailableFilm())));
+				try {
+					logger.info(shelf.setNewFilmOnOccupiedLocation("La Comunidad", new Location(0, 0), new Film("Róża",
+							"Wojciech Smarzowski", 2010, new AvailableFilm())));
+				} catch (EndOfShelfException e) {
+					
+					logger.info(e.toString());
+				}
 			} catch (LocationIsNullException e) {
 				logger.warn(e.toString());
 			}
@@ -76,16 +91,17 @@ public class Main {
 		shelf.clearAll();
 		shelf.show();
 		
-		
 		/*
+		
 		List<Film> newFilms = new ArrayList<Film>();
 		newFilms.add(new Film("Chinatown", "Roman Polański", 1974, new AvailableFilm()));
 		newFilms.add(new Film("Taxi Driver", "Martin Scorsese", 1976, new AvailableFilm()));
 		newFilms.add(new Film("Snatch", "Guy Ritchie", 2000, new AvailableFilm()));
 		newFilms.add(new Film("Nóż w wodzie", "Roman Polański", 1961, new AvailableFilm()));
 		                                           
-		shelf.put(newFilms);
+		shelf.putListOfFilms(newFilms);
 		shelf.show();
+		
 		*/
 	}
 

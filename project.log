@@ -1774,3 +1774,883 @@ Films are made by director Jim Jarmusch you can find in location: { [2] [0]=The 
 2011-11-11 20:53:31,878 [main] INFO  films.Shelf - All films are cleared
 2011-11-11 20:53:31,878 [main] INFO  films.Shelf - Current films: (0,0) [null] 
 
+2011-11-14 11:43:19,219 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:43:19,242 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:43:19,243 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:43:19,243 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 11:43:19,243 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:43:19,244 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:43:19,244 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:43:19,245 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:43:19,245 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:43:19,246 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:43:19,247 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 11:43:19,247 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:43:19,248 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:43:19,248 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:43:19,248 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:43:19,249 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:43:19,249 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:43:19,249 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 11:46:35,981 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:46:35,984 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:46:35,985 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 11:46:35,985 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:46:35,986 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:46:35,986 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:46:35,987 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:46:35,987 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:46:35,987 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:46:35,988 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:46:35,988 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:46:35,989 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:46:35,989 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:46:35,989 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:46:35,990 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:46:35,990 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 11:48:29,441 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:48:29,444 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:48:29,444 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 11:48:29,445 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:48:29,446 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:48:29,446 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:48:29,446 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:48:29,447 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:48:29,447 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:48:29,448 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:48:29,448 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:48:29,448 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:48:29,449 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:48:29,449 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:48:29,450 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:48:29,450 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 11:50:34,360 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:50:34,363 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:50:34,363 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 11:50:34,364 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:50:34,364 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:50:34,365 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:50:34,365 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:50:34,365 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:50:34,366 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:50:34,366 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:50:34,367 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:50:34,367 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:50:34,368 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:50:34,368 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:50:34,368 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:50:34,369 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 11:50:54,628 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:50:54,632 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:50:54,633 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 11:50:54,633 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:50:54,633 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:50:54,634 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:50:54,634 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:50:54,635 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:50:54,635 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:50:54,635 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:50:54,636 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:50:54,637 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:50:54,637 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:50:54,637 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:50:54,638 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:50:54,638 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 11:52:54,878 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:52:54,880 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:52:54,881 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 11:52:54,881 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:52:54,882 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:52:54,882 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:52:54,883 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:52:54,883 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:52:54,883 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:52:54,884 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:52:54,884 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:52:54,886 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:52:54,886 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:52:54,886 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:52:54,887 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:52:54,887 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 11:57:44,157 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:57:44,160 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:57:44,161 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:57:44,161 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:57:44,162 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:57:44,162 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:57:44,163 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:57:44,163 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:57:44,164 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:57:44,164 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:57:44,165 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:57:44,165 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:57:44,166 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:57:44,166 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:57:44,166 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 11:57:44,166 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 11:57:44,167 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 11:57:44,167 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 11:57:44,167 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:57:44,168 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:57:44,168 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:57:44,168 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:57:44,169 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:57:44,169 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:57:44,169 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 11:59:52,238 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:59:52,240 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 11:59:52,240 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:59:52,241 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 11:59:52,241 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 11:59:52,242 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 11:59:52,242 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 11:59:52,242 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 11:59:52,243 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 11:59:52,243 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 11:59:52,244 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 11:59:52,245 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 11:59:52,245 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 11:59:52,245 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 11:59:52,246 [main] INFO  films.Main -  [3] [0]
+2011-11-14 11:59:52,246 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 11:59:52,246 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 11:59:52,247 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:07:57,724 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:07:57,726 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:07:57,727 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:07:57,727 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:07:57,728 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:07:57,728 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:07:57,731 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:07:57,732 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:07:57,733 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:07:57,733 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:07:57,734 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:07:57,734 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:07:57,734 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:07:57,735 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:07:57,735 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:07:57,735 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:07:57,736 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:07:57,736 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:07:57,736 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 12:07:57,737 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 12:07:57,737 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:07:57,737 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:07:57,738 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:07:57,738 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:07:57,738 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:08:26,588 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:08:26,594 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:08:26,595 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:08:26,595 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:08:26,596 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:08:26,596 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:08:26,597 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:08:26,597 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:08:26,598 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:08:26,599 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:08:26,600 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:08:26,600 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 12:08:26,600 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 12:08:26,600 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:08:26,609 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:08:26,610 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:08:26,612 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:08:26,612 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:09:21,120 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:09:21,127 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:09:21,127 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:09:21,128 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:09:21,128 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:09:21,129 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:09:21,129 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:09:21,130 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:09:21,130 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:09:21,130 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:09:21,131 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:09:21,132 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 12:09:21,132 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 12:09:21,132 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:09:21,133 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:09:21,133 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:09:21,133 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:09:21,134 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:11:24,839 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:11:35,175 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:11:53,482 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:11:53,486 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:11:53,487 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:11:53,487 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:11:53,487 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:11:53,487 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:11:53,487 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:11:53,487 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:11:53,488 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:11:53,488 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:11:53,489 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:11:53,490 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 12:11:53,490 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 12:11:53,490 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:11:53,493 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:11:53,493 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:11:53,494 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:11:53,494 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:12:01,400 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:15:44,071 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:15:44,074 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 12:15:44,075 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:15:44,075 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 12:15:44,076 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:15:44,076 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:15:44,077 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:15:44,077 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:15:44,078 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:15:44,078 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:15:44,078 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 12:15:44,079 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:15:44,079 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:15:44,080 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:15:44,080 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:15:44,080 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:26:41,005 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:27:01,527 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:27:01,540 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:27:01,542 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:27:01,544 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:27:01,545 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:27:01,547 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:27:01,548 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:27:01,550 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:27:01,552 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:27:01,553 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:27:01,555 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:27:01,556 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 12:27:01,557 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 12:27:01,559 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:27:01,560 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:27:01,561 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:27:01,563 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:27:01,564 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:31:35,662 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:31:35,665 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:31:35,665 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:31:35,666 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:31:35,666 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:31:35,666 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:31:35,667 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:31:35,667 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:31:35,668 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:31:35,668 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:31:35,669 [main] INFO  films.Shelf - Added film La Comunidad, de la Iglesia, 2004 in location  [0] [0]
+2011-11-14 12:31:35,669 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 12:31:35,669 [main] INFO  films.Main - { [0] [0]=La Comunidad, de la Iglesia, 2004,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009}
+2011-11-14 12:31:35,670 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:31:35,670 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:31:35,670 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:31:35,671 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:31:35,672 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 12:42:03,910 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:59:59,911 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:59:59,917 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 12:59:59,918 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:59:59,918 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 12:59:59,919 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 12:59:59,920 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 12:59:59,920 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 12:59:59,920 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 12:59:59,921 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 12:59:59,921 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 12:59:59,922 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 12:59:59,922 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 12:59:59,922 [main] INFO  films.Main -  [3] [0]
+2011-11-14 12:59:59,923 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 12:59:59,924 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 12:59:59,924 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:03:10,962 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:03:10,965 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:03:10,966 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Bracia, Susanne Bier, 2004] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:03:10,966 [main] INFO  films.Shelf - Found film Bracia, Susanne Bier, 2004 in location  [1] [0]
+2011-11-14 13:03:10,967 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:03:10,967 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:03:10,968 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:03:10,968 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:03:10,969 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:03:10,969 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:03:10,969 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:03:10,970 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:03:10,970 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:03:10,971 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:03:10,971 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:03:10,971 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:05:37,404 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:05:37,414 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:05:37,414 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:05:37,415 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 13:05:37,415 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:05:37,416 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:05:37,416 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:05:37,416 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:05:37,417 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:05:37,417 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:05:37,418 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:05:37,418 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:05:37,418 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:05:37,419 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:05:37,419 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:05:37,420 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:06:11,334 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:06:11,340 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 13:06:11,340 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:06:11,340 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 13:06:11,340 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:06:11,341 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:06:11,341 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:06:11,341 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:06:11,341 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:06:11,341 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:06:11,342 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:06:11,343 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:06:11,344 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:06:11,344 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:06:11,345 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:06:11,345 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:08:26,810 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:08:26,813 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 13:08:26,813 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 13:08:26,814 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 13:08:26,814 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:08:26,815 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:08:26,815 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:08:26,816 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:08:26,816 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:08:26,816 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:08:26,817 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:08:26,818 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:08:26,818 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:08:26,818 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 13:08:26,819 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:08:26,819 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:08:51,048 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:08:51,050 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:08:51,051 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:08:51,051 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 13:08:51,056 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:08:51,056 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:08:51,057 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:08:51,057 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:08:51,058 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:08:51,058 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:08:51,058 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:08:51,059 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:08:51,059 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:08:51,060 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:08:51,060 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:08:51,060 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:09:04,240 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:09:04,243 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:09:04,243 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:09:04,244 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 13:09:04,244 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:09:04,245 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:09:04,245 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:09:04,245 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:09:04,246 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:09:04,246 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:09:04,246 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:09:04,247 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:09:04,247 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:09:04,248 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:09:04,248 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:09:04,249 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:10:02,680 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:10:02,682 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 13:10:02,683 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 13:10:02,683 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 13:10:02,683 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:10:02,684 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:10:02,684 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:10:02,684 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:10:02,685 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:10:02,685 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:10:02,686 [main] WARN  films.Main - exceptions.LocationIsNullException: Cannot put film in occupied location
+2011-11-14 13:10:02,686 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:10:02,687 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:10:02,687 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 13:10:02,687 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:10:02,688 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 13:19:14,967 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 13:19:14,970 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 13:19:14,971 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 13:19:14,971 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 13:19:14,972 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 13:19:14,972 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 13:19:14,973 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 13:19:14,973 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 13:19:14,974 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 13:19:14,974 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 13:19:14,975 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 13:19:14,975 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004}
+2011-11-14 13:19:14,976 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 13:19:14,976 [main] INFO  films.Main -  [3] [0]
+2011-11-14 13:19:14,976 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 13:19:14,977 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 13:19:14,977 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 14:33:48,043 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 14:33:48,050 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,050 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,050 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,050 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,050 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,050 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 14:33:48,051 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:33:48,051 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 14:33:48,051 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 14:33:48,051 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 14:33:48,051 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 14:33:48,052 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 14:33:48,053 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 14:33:48,054 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 14:33:48,054 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,054 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,055 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,055 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,055 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:33:48,056 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 14:33:48,056 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 14:33:48,056 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 14:33:48,057 [main] INFO  films.Main -  [3] [0]
+2011-11-14 14:33:48,057 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:33:48,058 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 14:33:48,058 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 14:34:32,284 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 14:34:32,287 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:34:32,288 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 14:34:32,288 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:34:32,289 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 14:34:32,289 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 14:34:32,290 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 14:34:32,290 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 14:34:32,290 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 14:34:32,291 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 14:34:32,291 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 14:34:32,292 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 14:34:32,292 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 14:34:32,292 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 14:34:32,293 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 14:34:32,293 [main] INFO  films.Main -  [3] [0]
+2011-11-14 14:34:32,294 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:34:32,294 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 14:34:32,294 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 14:55:07,035 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 14:55:07,037 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 14:55:07,038 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:55:07,038 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 14:55:07,039 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 14:55:07,039 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 14:55:07,039 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 14:55:07,040 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 14:55:07,040 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 14:55:07,041 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 14:55:07,041 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 14:55:07,042 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004}
+2011-11-14 14:55:07,042 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 14:55:07,042 [main] INFO  films.Main -  [3] [0]
+2011-11-14 14:55:07,043 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:55:07,043 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 14:55:07,043 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 14:56:41,996 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 14:56:41,999 [main] INFO  films.Shelf - Freelocations: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 14:56:42,000 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 14:56:42,002 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:56:42,002 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 14:56:42,002 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 14:56:42,003 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 14:56:42,003 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 14:56:42,004 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 14:56:42,004 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 14:56:42,005 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 14:56:42,005 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 14:56:42,005 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004}
+2011-11-14 14:56:42,005 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 14:56:42,006 [main] INFO  films.Main -  [3] [0]
+2011-11-14 14:56:42,006 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:56:42,006 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 14:56:42,007 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 14:57:14,477 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 14:57:14,479 [main] INFO  films.Shelf - Freelocations: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 14:57:14,480 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 14:57:14,481 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:57:14,481 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 14:57:14,481 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 14:57:14,482 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 14:57:14,482 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 14:57:14,483 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 14:57:14,483 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 14:57:14,483 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 14:57:14,484 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 14:57:14,484 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004}
+2011-11-14 14:57:14,485 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 14:57:14,485 [main] INFO  films.Main -  [3] [0]
+2011-11-14 14:57:14,485 [main] INFO  films.Shelf - Current films: (0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 14:57:14,486 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 14:57:14,486 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 15:02:56,855 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 15:02:56,858 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 15:02:56,858 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 15:02:56,859 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 15:02:56,860 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 15:02:56,860 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 15:02:56,861 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 15:02:56,861 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 15:02:56,862 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 15:02:56,863 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 15:02:56,863 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 15:02:56,863 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 15:02:56,864 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 15:02:56,864 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 15:02:56,864 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 15:02:56,865 [main] INFO  films.Main -  [3] [0]
+2011-11-14 15:02:56,866 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 15:02:56,866 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 15:02:56,866 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 15:04:26,102 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 15:04:26,105 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 15:04:26,106 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 15:04:26,106 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 15:04:26,107 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 15:04:26,107 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 15:04:26,108 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 15:04:26,108 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 15:04:26,108 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 15:04:26,109 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 15:04:26,109 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 15:04:26,110 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 15:04:26,110 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 15:04:26,111 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 15:04:26,111 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 15:04:26,111 [main] INFO  films.Main -  [3] [0]
+2011-11-14 15:04:26,112 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 15:04:26,112 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 15:04:26,112 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 15:17:09,243 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 15:17:09,247 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 15:17:09,247 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 15:17:09,248 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 15:17:09,248 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 15:17:09,249 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 15:17:09,249 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 15:17:09,250 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 15:17:09,250 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 15:17:09,251 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 15:17:09,251 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 15:17:09,252 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 15:17:09,252 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 15:17:09,252 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 15:17:09,253 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 15:17:09,253 [main] INFO  films.Main -  [3] [0]
+2011-11-14 15:17:09,253 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 15:17:09,254 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 15:17:09,254 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 16:10:38,163 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 16:10:38,166 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 16:10:38,166 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:10:38,167 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 16:10:38,167 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 16:10:38,167 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 16:10:38,168 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 16:10:38,168 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 16:10:38,169 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 16:10:38,169 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 16:10:38,170 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 16:10:38,170 [main] INFO  films.Main - {null=Róża, Wojciech Smarzowski, 2010,  [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004}
+2011-11-14 16:10:38,171 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 16:10:38,171 [main] INFO  films.Main -  [3] [0]
+2011-11-14 16:11:21,296 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 16:11:21,299 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:11:21,299 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 16:11:21,300 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:11:21,300 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 16:11:21,301 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 16:11:21,301 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 16:11:21,302 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 16:11:21,302 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 16:11:21,303 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 16:11:21,303 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 16:11:21,304 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:11:21,304 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 16:11:21,304 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 16:11:21,305 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 16:11:21,306 [main] INFO  films.Main -  [3] [0]
+2011-11-14 16:11:21,306 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:11:21,307 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 16:11:21,307 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 16:12:37,875 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 16:12:37,877 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:12:37,877 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 16:12:37,878 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:12:37,878 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 16:12:37,879 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 16:12:37,879 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 16:12:37,879 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 16:12:37,880 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 16:12:37,881 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 16:12:37,881 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 16:12:37,882 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:12:37,882 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 16:12:37,882 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 16:12:37,883 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 16:12:37,883 [main] INFO  films.Main -  [3] [0]
+2011-11-14 16:12:37,883 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:12:37,884 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 16:12:37,884 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 16:13:22,513 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 16:13:22,515 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:13:22,516 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 16:13:22,516 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:13:22,517 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 16:13:22,517 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 16:13:22,517 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 16:13:22,518 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 16:13:22,518 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 16:13:22,519 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 16:13:22,519 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 16:13:22,520 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:13:22,520 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 16:13:22,520 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 16:13:22,521 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 16:13:22,521 [main] INFO  films.Main -  [3] [0]
+2011-11-14 16:13:22,522 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:13:22,522 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 16:13:22,522 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 16:15:13,529 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 16:15:13,532 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:15:13,532 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 16:15:13,533 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:15:13,533 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 16:15:13,533 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 16:15:13,534 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 16:15:13,534 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 16:15:13,535 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 16:15:13,536 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 16:15:13,536 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 16:15:13,536 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:15:13,536 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 16:15:13,537 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 16:15:13,537 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 16:15:13,537 [main] INFO  films.Main -  [3] [0]
+2011-11-14 16:15:13,538 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:15:13,538 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 16:15:13,538 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 16:35:18,595 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 16:35:18,600 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:35:18,600 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 16:35:18,601 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:35:18,601 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 16:35:18,602 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 16:35:18,602 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 16:35:18,603 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 16:35:18,603 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 16:35:18,604 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 16:35:18,604 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 16:35:18,605 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:35:18,605 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 16:35:18,605 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 16:35:18,606 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 16:35:18,606 [main] INFO  films.Main -  [3] [0]
+2011-11-14 16:35:18,607 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:35:18,607 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 16:35:18,607 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
+2011-11-14 16:35:18,608 [main] INFO  films.Shelf - Current films: (0,0) [Nóż w wodzie, Roman Polański, 1961] 
+
+2011-11-14 16:44:13,054 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] 
+
+2011-11-14 16:44:13,058 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:44:13,058 [main] INFO  films.Shelf - Added film Bracia, Susanne Bier, 2004 in location  [5] [0]
+2011-11-14 16:44:13,058 [main] INFO  films.Shelf - Current films: (0,0) [La Comunidad, de la Iglesia, 2004] (1,0) [Soul Kitchen, Fatih Akin, 2010] (2,0) [The Limits of Control, Jim Jarmusch, 2009] (3,0) [Broken Flowers, Jim Jarmusch, 2005] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:44:13,059 [main] INFO  films.Shelf - Found film Soul Kitchen, Fatih Akin, 2010 in location  [1] [0]
+2011-11-14 16:44:13,059 [main] INFO  films.Shelf - Removed film from location  [1] [0]
+2011-11-14 16:44:13,060 [main] WARN  films.Main - exceptions.FilmNotFoundException: There are not films from year: 2045
+2011-11-14 16:44:13,060 [main] INFO  films.Shelf - There are 2 films made by Jim Jarmusch
+2011-11-14 16:44:13,060 [main] INFO  films.Main - { [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005}
+2011-11-14 16:44:13,063 [main] INFO  films.Shelf - Films made by Jarmusch you can find in locations:
+2011-11-14 16:44:13,063 [main] INFO  films.Main - [ [2] [0],  [3] [0]]
+2011-11-14 16:44:13,063 [main] INFO  films.Shelf - All locations are occupied
+2011-11-14 16:44:13,064 [main] INFO  films.Shelf - New film Róża, Wojciech Smarzowski, 2010 is putted instead of film La Comunidad
+2011-11-14 16:44:13,064 [main] INFO  films.Main - { [0] [0]=Róża, Wojciech Smarzowski, 2010,  [2] [0]=The Limits of Control, Jim Jarmusch, 2009,  [3] [0]=Broken Flowers, Jim Jarmusch, 2005,  [4] [0]=Dom zły, Wojciech Smarzowski, 2009,  [5] [0]=Bracia, Susanne Bier, 2004,  [5] [1]=Róża, Wojciech Smarzowski, 2010}
+2011-11-14 16:44:13,064 [main] INFO  films.Shelf - Changed films from location  [2] [0] into  [3] [0] and viceversa
+2011-11-14 16:44:13,065 [main] INFO  films.Main -  [3] [0]
+2011-11-14 16:44:13,065 [main] INFO  films.Shelf - Current films: (0,1) [null] (1,1) [null] (2,1) [null] (3,1) [null] (4,1) [null] (5,1) [Róża, Wojciech Smarzowski, 2010] 
+(0,0) [Róża, Wojciech Smarzowski, 2010] (1,0) [null] (2,0) [Broken Flowers, Jim Jarmusch, 2005] (3,0) [The Limits of Control, Jim Jarmusch, 2009] (4,0) [Dom zły, Wojciech Smarzowski, 2009] (5,0) [Bracia, Susanne Bier, 2004] 
+
+2011-11-14 16:44:13,065 [main] INFO  films.Shelf - All films are cleared
+2011-11-14 16:44:13,066 [main] INFO  films.Shelf - Current films: (0,0) [null] 
+
