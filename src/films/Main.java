@@ -20,8 +20,9 @@ public class Main {
 		PropertyConfigurator.configure("Log4J.properties");
 
 		Shelf shelf = new Shelf();
+		
 		shelf.show();
-	
+		
 		try {
 			shelf.getFreeLocation();
 		} catch (EndOfShelfException e) {

@@ -161,7 +161,7 @@ public class Shelf {
 		// TODO uwaga na wyznaczanie wolnej lokalizacji - przestawienie filmów
 	}
 
-	public void findByLocation(Location l) throws LocationIsNullException {
+	public Location findByLocation(Location l) throws LocationIsNullException {
 
 		Film film = null;
 		film = this.getExistedFilms().get(l);
@@ -169,7 +169,9 @@ public class Shelf {
 			throw new LocationIsNullException("There is no film in location: "
 					+ l);
 
-		logger.info("Found film " + film + " in location " + l);
+		logger.info("Found film " + film + " in location" + l);
+		
+		return l;
 	}
 
 	public Map<Location, Film> setNewFilmOnOccupiedLocation(String t,
