@@ -136,9 +136,9 @@ public class ShelfTest {
 	@Test
 	public void testFindByYear() throws FilmNotFoundException{
 		
-		s.put(new Location(0, 0), new Film("Dzień świra", "Marek Koterski", 2002, new AvailableFilm()));
-		assertEquals(s.findByYear(2002).toString(), "Found film Dzień świra, Marek Koterski, 2002 in location [0] [0]");
-
+		Location l = new Location(0, 0);
+		s.put(l, new Film("Dzień świra", "Marek Koterski", 2002, new AvailableFilm()));
+		assertSame(s.findByYear(2002).get(l), s.getExistedFilms().get(l));
 	}
 
 	@Test
