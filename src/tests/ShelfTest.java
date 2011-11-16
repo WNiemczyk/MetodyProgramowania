@@ -80,9 +80,9 @@ public class ShelfTest {
 	@Test
 	public void testPutFilm() throws LocationIsNullException, EndOfShelfException{
 		
-		s.put(new Film("Dzień świra", "Marek Koterski", 2002, new AvailableFilm()));
-		
+		s.put(new Film("Dzień świra", "Marek Koterski", 2002, new AvailableFilm()));		
 		assertTrue(s.getExistedFilms().size() > 0);
+		
 	}
 
 	@Test
@@ -171,14 +171,12 @@ public class ShelfTest {
 	@Test
 	public void testSetExistedFilms() {
 		
-		Map<Location, Film> existedFilms = new HashMap<Location, Film>();
-		existedFilms.put(new Location(0, 0), new Film("Wszyscy jesteśmy Chrystusami", "Marek Koterski", 2007, new AvailableFilm()));
-		Map<Location, Film> newFilms = new HashMap<Location, Film>();
-		newFilms.put(new Location(0, 0), new Film("Dzień świra", "Marek Koterski", 2002, new AvailableFilm()));
-		s.getExistedFilms().get(new Location(0, 0));
-		s.setExistedFilms(newFilms);
+		s.put(new Location(0, 0), new Film("Wszyscy jesteśmy Chrystusami", "Marek Koterski", 2007, new AvailableFilm()));
+		Map<Location, Film> newFilm = new HashMap<Location, Film>();
+		newFilm.put(new Location(0, 0), new Film("Dzień świra", "Marek Koterski", 2002, new AvailableFilm()));
+		s.setExistedFilms(newFilm);
 		
-		assertEquals(s.getExistedFilms().get(new Location(0, 0)), newFilms);
+		assertSame(s.getExistedFilms().get(new Location(0, 0)), newFilm.get(new Location(0, 0)));
 	}
 
 }
