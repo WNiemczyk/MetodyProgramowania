@@ -35,6 +35,14 @@ public class Location {
 	public int hashCode() {
 		return x + y;
 	}
+	
+	public int compareTo(Location l) {
+		if ((this.y > l.y) || ((this.x > l.x) && (this.y >= l.y)))
+			return 1;
+		else if ((this.x == l.x) && (this.y == l.y))
+			return 0;
+		return -1;
+	}
 
 	public String toString() {
 

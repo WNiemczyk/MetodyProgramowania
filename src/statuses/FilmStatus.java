@@ -1,15 +1,20 @@
 package statuses;
 
-public abstract class FilmStatus {
-
-	private String name;
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
+public enum FilmStatus {
+	
+	Available("Available"),
+	Borrowed("Borrowed"),
+	Reserved("Reserved");
+	
+	private String description;
+	
+	private FilmStatus(String description){
+		this.description = description;
 	}
 	
+	public String getDescription(){
+		return description;
+	}
 }
+
+

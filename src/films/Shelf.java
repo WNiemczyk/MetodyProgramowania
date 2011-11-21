@@ -1,45 +1,62 @@
 package films;
 
 import java.util.ArrayList;
+
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
 
+import events.FilmEvent;
+import events.FilmListener;
 import exceptions.EndOfShelfException;
 import exceptions.FilmNotFoundException;
 import exceptions.LocationIsNullException;
 
-import statuses.AvailableFilm;
+import statuses.FilmStatus;
 
 public class Shelf {
 
 	private static Logger logger = Logger.getLogger(Shelf.class);
-	private final static int SHELF_HEIGHT = 15;
+	private final static int SHELF_HEIGHT = 9;
 	private final static int SHELF_WIDTH = 5;
+
+	private Film film;
+	private List<FilmListener> filmListeners = new ArrayList<FilmListener>();
 
 	private Map<Location, Film> existedFilms;
 
 	public Shelf() {
 
 		this.existedFilms = new HashMap<Location, Film>();
-		init();
+
 	}
 
 	public void init() {
 		this.existedFilms.put(new Location(0, 0), new Film("La Comunidad",
-				"de la Iglesia", 2004, new AvailableFilm()));
+				"de la Iglesia", 2004, FilmStatus.Available));
 		this.existedFilms.put(new Location(1, 0), new Film("Soul Kitchen",
-				"Fatih Akin", 2010, new AvailableFilm()));
+				"Fatih Akin", 2010, FilmStatus.Available));
 		this.existedFilms.put(new Location(2, 0), new Film(
 				"The Limits of Control", "Jim Jarmusch", 2009,
-				new AvailableFilm()));
+				FilmStatus.Available));
 		this.existedFilms.put(new Location(3, 0), new Film("Broken Flowers",
-				"Jim Jarmusch", 2005, new AvailableFilm()));
+				"Jim Jarmusch", 2005, FilmStatus.Available));
 		this.existedFilms.put(new Location(4, 0), new Film("Dom zły",
-				"Wojciech Smarzowski", 2009, new AvailableFilm()));
+				"Wojciech Smarzowski", 2009, FilmStatus.Available));
 
+	}
+
+	public synchronized void addFilmListener(FilmListener listener) {
+
+		filmListeners.add(listener);
+	}
+
+	public synchronized void removeFilmListener(FilmListener listener) {
+
+		filmListeners.remove(listener);
 	}
 
 	public String toString() {
@@ -84,14 +101,110 @@ public class Shelf {
 		logger.info("Current films: " + this.toString());
 	}
 
-	public void put(Location l, Film f) {
+	public void put(Location location, Film film) {
 
-		this.existedFilms.put(l, f);
+		this.existedFilms.put(location, film);
+		this.film = film;
+		this.fireFilmAddedEvent();
+		logger.info("Added film " + film + " in location " + location);
+	}
+
+	private synchronized void fireFilmAddedEvent() {
+		FilmEvent event = new FilmEvent(this, film);
+		Iterator<FilmListener> iterator = filmListeners.iterator();
+		while (iterator.hasNext()) {
+			iterator.next().filmAdded(event);
+		}
+	}
+
+	public void borrow(Film film) {
+		if ((film.getStatus() == FilmStatus.Available)
+				|| (film.getStatus() == FilmStatus.Reserved)) {
+			this.film = film;
+			film.setStatus(FilmStatus.Borrowed);
+			fireFilmBorrowedEvent();
+		}
+	}
+
+	private synchronized void fireFilmBorrowedEvent() {
+		FilmEvent event = new FilmEvent(this, film);
+		Iterator<FilmListener> iterator = filmListeners.iterator();
+		while (iterator.hasNext()) {
+			iterator.next().filmBorrowed(event);
+		}
+	}
+
+	public void returnFilm(Film film) {
+		this.film = film;
+		film.setStatus(FilmStatus.Available);
+		fireFilmReturnedEvent();
+	}
+
+	private synchronized void fireFilmReturnedEvent() {
+		FilmEvent event = new FilmEvent(this, film);
+		Iterator<FilmListener> iterator = filmListeners.iterator();
+		while (iterator.hasNext()) {
+			iterator.next().filmReturned(event);
+		}
+	}
+
+	public void reserve(Film film) {
+		if (film.getStatus() == FilmStatus.Available) {
+			this.film = film;
+			film.setStatus(FilmStatus.Reserved);
+			fireFilmReservedEvent();
+		}
+	}
+
+	private synchronized void fireFilmReservedEvent() {
+		FilmEvent event = new FilmEvent(this, film);
+		Iterator<FilmListener> iterator = filmListeners.iterator();
+		while (iterator.hasNext()) {
+			iterator.next().filmReserved(event);
+		}
+	}
+
+	private Location getFreeLocation() throws EndOfShelfException {
+		Location l = new Location(0, 0);
+
+		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
+
+			if (l.compareTo(e.getKey()) < 1){
+				l.setX(e.getKey().getX());
+				l.setY(e.getKey().getY());
+			}
+		}
+
+		if ((l.getX() == Shelf.SHELF_WIDTH) && (l.getY() == Shelf.SHELF_HEIGHT))
+			throw new EndOfShelfException("All shelf is occupied");
+
+		if (l.getX() < this.SHELF_WIDTH)
+			l.setX(l.getX() + 1);
+		else if (l.getX() == this.SHELF_WIDTH) {
+			l.setX(0);
+			l.setY(l.getY() + 1);
+
+		}
+
+		logger.info("Found free location: " + l);
+		
+		return l;
+	}
+
+	public void put(Film film) throws EndOfShelfException {
+		Location location = this.getFreeLocation();
+		this.put(location, film);
+	}
+
+	public void put(ArrayList<Film> films) throws EndOfShelfException {
+		for (Film f : films) {
+			put(f);
+		}
+		
 
 	}
 
-
-	public void putInFreeLocation(Location l, Film f)
+	public void putInLocation(Location l, Film f)
 			throws LocationIsNullException {
 
 		for (Map.Entry<Location, Film> e : existedFilms.entrySet()) {
@@ -114,67 +227,26 @@ public class Shelf {
 
 	}
 
-	public Location getFreeLocation() throws EndOfShelfException{
-		
-		Location l = new Location(0, 0);
-		Location rl = null;
-		
-		// TODO uzupełnić
-		
-		 for (Map.Entry<Location, Film> e : existedFilms.entrySet()) { 
-			 
-			 if (e.getKey().getY() == this.SHELF_HEIGHT){ 
-				 throw new EndOfShelfException("Cannot exit the shelf"); } 
-			 else if ((e.getKey().getX() == this.SHELF_WIDTH) && (e.getKey().getY() >= l.getY() &&
-					 e.getKey().getY() < this.SHELF_HEIGHT)){ 
-				 l.setY(e.getKey().getY()+1); }
-			 else if ((e.getKey().getX() < this.SHELF_WIDTH) && (l.getX() <=
-					 e.getKey().getX())){ 
-				 l.setX(e.getKey().getX() + 1);
-			 }
-			 
-			 rl = l;
-		 }	 
-		 
-		if(rl != null) 
-		logger.info("All locations are occupied");
-		else	
-		return rl;
-		
-		return rl;
-	}
-	
-	public void put(Film film) throws LocationIsNullException, EndOfShelfException {
-		Location l = this.getFreeLocation();
-		this.put(l, film);
+	public void removeByLocation(Location l) {
+
+		this.getExistedFilms().remove(l);
+		logger.info("Removed film from location " + l);
+
 	}
 
-	/*
-	 * public void put(List<Film> films){ for(Film f: films){ put(f); }
-	 * logger.info("Added new films " + films); }
-	 */
+	public Film findByLocation(Location l) throws LocationIsNullException {
 
-	public void removeByLocation(Location location) {
-
-		this.getExistedFilms().remove(location);
-		logger.info("Removed film from location " + location);
-		// TODO uwaga na wyznaczanie wolnej lokalizacji - przestawienie filmów
-	}
-
-	public Location findByLocation(Location l) throws LocationIsNullException {
-
-		Film film = null;
-		film = this.getExistedFilms().get(l);
+		Film film = this.getExistedFilms().get(l);
 		if (film == null)
 			throw new LocationIsNullException("There is no film in location: "
 					+ l);
 
 		logger.info("Found film " + film + " in location" + l);
-		
-		return l;
-	}
 
-	public Map<Location, Film> setNewFilmOnOccupiedLocation(String t,
+		return film;
+	}
+	
+	public Map<Location, Film> insertNewFilmOnOccupiedLocation(String t,
 			Location l, Film f) throws FilmNotFoundException,
 			LocationIsNullException, EndOfShelfException {
 
@@ -185,7 +257,7 @@ public class Shelf {
 			if (e.getValue().getTitle().equals(t)) {
 				this.existedFilms.put(e.getKey(), f);
 				film = e.getValue();
-				this.put(film);
+				//this.put(film);
 				break;
 			}
 
