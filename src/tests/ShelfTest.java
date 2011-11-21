@@ -40,21 +40,6 @@ public class ShelfTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
-	public void testShelf() {
-
-		
-	}
-
-	@Test
-	public void testInit() {
-		
-	}
-
-	@Test
-	public void testToString() {
-		fail("Not yet implemented");
-	}
 
 	@Test
 	public void testShow() {
@@ -63,21 +48,13 @@ public class ShelfTest {
 		
 	}
 
-	@Test
-	public void testPutLocationFilm() {
-		fail("Not yet implemented");
-	}
-
+	
 	@Test
 	public void testPutInFreeLocation() {
 	
 		assertTrue(s.getExistedFilms().size() > 0);
 	}
 
-	@Test
-	public void testGetFreeLocation() {
-		
-	}
 
 	@Test
 	public void testPutFilm() throws LocationIsNullException, EndOfShelfException{
@@ -102,11 +79,6 @@ public class ShelfTest {
 		Location l = new Location(0, 0);
 		assertSame(s.findByLocation(l), l);
 
-	}
-
-	@Test
-	public void testSetNewFilmOnOccupiedLocation() {
-		fail("Not yet implemented");
 	}
 
 	@Test
@@ -139,11 +111,6 @@ public class ShelfTest {
 		assertSame(s.findByYear(2002).get(l), s.getExistedFilms().get(l));
 	}
 
-	@Test
-	public void testFindByDirector() throws FilmNotFoundException{
-	
-		Location l = new Location(0, 0);
- 	}
 
 	@Test
 	public void testFindLocationByDirector() throws LocationIsNullException{

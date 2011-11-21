@@ -39,7 +39,7 @@ public class Rental implements FilmListener{
 		Shelf shelf = new Shelf();
 		shelf.addFilmListener(rental);
 		shelf.init();
-	
+		
 		shelf.show();
 		
 		try {
@@ -163,6 +163,7 @@ public class Rental implements FilmListener{
 		System.out.println("Reserved film: " + event.getFilm().getTitle());
 	}
 
+	
 	public void filmAdded(FilmEvent event) {
 		event.getFilm().setStatus(FilmStatus.Available);
 		System.out.println("Added film: " + event.getFilm().getTitle());

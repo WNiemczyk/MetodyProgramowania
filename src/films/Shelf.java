@@ -193,10 +193,14 @@ public class Shelf {
 
 	public void put(Film film) throws EndOfShelfException {
 		Location location = this.getFreeLocation();
+		
+		if (location == null) throw new EndOfShelfException("All shelf is occupied");
+		
 		this.put(location, film);
 	}
 
 	public void put(ArrayList<Film> films) throws EndOfShelfException {
+		
 		for (Film f : films) {
 			put(f);
 		}
